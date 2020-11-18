@@ -47,7 +47,7 @@ namespace Actividad8_CuadrosTexto
                 if (!int.TryParse(textoAyudaEdadTextBlock.Text, out valor))
                     textoAyudaEdadTextBlock.Visibility = Visibility.Visible;
                 else
-                    textoAyudaEdadTextBlock.Visibility = Visibility.Hidden;
+                    textoAyudaEdadTextBlock.Visibility = Visibility.Hidden; 
             }
         }
     }
